@@ -1,0 +1,62 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 1.5rem 24px;
+
+    &__container {
+        width: 33%;
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        position: relative;
+
+        padding: 6px 10px;
+        
+        z-index: 0;
+
+        &::before {
+            content: "";
+            
+            background: linear-gradient(to right, #c98cf1, #7b78e5) border-box;
+
+            position: absolute;
+            
+            border: 2px solid transparent;
+            border-radius: 10px;
+            inset: 0;
+            
+            z-index: -1;
+            mask-composite: exclude;
+            mask: linear-gradient(#fff 0 0) padding-box,
+                linear-gradient(#fff 0 0);
+            
+            -webkit-mask-composite: xor;
+        }
+    }
+
+    &__input {
+        background-color: transparent;
+        
+        width: 80%;
+        height: 30px;
+
+        border: none;
+        
+        color: #d9d9d9;
+        font-size: 1rem;
+        
+        outline: 0;
+
+        &::placeholder {
+            font-size: 1rem;
+        }
+    }
+
+    img {
+        cursor: pointer;
+    }
+}
