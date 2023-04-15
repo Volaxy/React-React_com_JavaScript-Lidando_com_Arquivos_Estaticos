@@ -1,4 +1,4 @@
-import "./scss/global.scss";
+import "./assets/scss/global.scss";
 
 import Index from "./pages/index";
 

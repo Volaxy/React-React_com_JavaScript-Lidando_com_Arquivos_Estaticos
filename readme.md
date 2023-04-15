@@ -35,3 +35,10 @@ URL do curso -> [React com JavaScript: Lidando com Arquivos Estáticos](https://
 * Inserir o banner da página.
 * Utilizar o import da forma correta como sugere a documentação.
 * O que é e como usar a extensão React Snippets.
+
+## 03 - Fontes e Estilos
+* Adicionar os arquivos GlobalStyle.scss e _variaveis.scss.
+* Como usar o normalize.css.
+* Como organizar e usar variáveis css.
+* Como configurar os arquivos de fontes no projeto.
+* Como importar essas fontes usando o @fontface.
