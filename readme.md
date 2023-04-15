@@ -13,6 +13,7 @@ URL do curso -> [React com JavaScript: Lidando com Arquivos Estáticos](https://
 ## Links Úteis &#x1F517;
 * [Protótipo do Site](https://www.figma.com/file/Y1W8HJHKqlUdDFeWi8e4cz/Alura-Space-%7C-React%3A-arquivos-est%C3%A1ticos?node-id=89%3A4) - Protótipo do site feito no Figma.
 * [Arquivos Base](https://github.com/alura-cursos/teste-tecnico-alura-space/archive/refs/heads/main.zip) - Arquivos base para execução do projeto.
+* [Snippets React](https://github.com/burkeholland/simple-react-snippets) - Lista dos snippets da extensão [Simple React Snippets](https://marketplace.visualstudio.com/items?itemName=burkeholland.simple-react-snippets), para produtividade no React.
 
 ***
 
@@ -25,3 +26,12 @@ URL do curso -> [React com JavaScript: Lidando com Arquivos Estáticos](https://
 * Instalar o Sass no projeto.
 * Vantagens de usar CSS modules.
 * O que significa `%PUBLIC_URL%`.
+
+## 02 - Avançando nos Componentes
+* Criar o componente de Menu e boas práticas de organização de pastas.
+* Como importar as imagens de ícones.
+* A importância de manter um padrão de nomenclatura de classes.
+* A escrever um HTML semântico.
+* Inserir o banner da página.
+* Utilizar o import da forma correta como sugere a documentação.
+* O que é e como usar a extensão React Snippets.

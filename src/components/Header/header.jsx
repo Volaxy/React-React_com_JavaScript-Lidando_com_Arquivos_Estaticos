@@ -1,12 +1,10 @@
-// This import the styles of SCSS like an object
-import style from "./scss/header.module.scss";
-
 import Logo from "./images/logo.png";
 import Search from "./images/icons/search.png";
 
+import style from "./scss/header.module.scss";
+
 export default function Header() {
     return (
-        // To use the styles of SCSS, put the object followed by the "." and the class name of the style
         <header className={style.header}>
             <img src={Logo} alt="Logo of the Alura Space" />
 

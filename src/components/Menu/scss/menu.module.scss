@@ -1,0 +1,46 @@
+.menu {
+    width: 18%;
+
+    &__list {
+        height: 276px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+        margin: 0;
+        padding-left: 0.5rem;
+        
+        list-style: none;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        &:first-child {
+            a {
+                color: #7b78e5;
+                font-family: "GandhiSansRegular";
+                font-weight: 700;
+            }
+        }
+    }
+
+    img {
+        width: 25px;
+        height: 25px;
+
+        margin-right: 0.5rem;
+        
+        cursor: pointer;
+    }
+
+    a {
+        color: #d9d9d9;
+        font-size: 1.125rem;
+        font-family: "GandhiSansRegular";
+        text-decoration: none;
+    }
+}
