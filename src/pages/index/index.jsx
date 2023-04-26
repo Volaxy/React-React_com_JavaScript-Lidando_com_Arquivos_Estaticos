@@ -1,11 +1,12 @@
 import React from 'react';
 
-import Header from "../../components/Header/header";
-import Banner from '../../components/Banner/banner';
-import Gallery from '../../components/Gallery/Gallery';
+// With the "jsconfig.json" file, it is possible to define an absolute path for React
+import Header from "components/Header/header";
+import Banner from 'components/Banner/banner';
+import Gallery from 'components/Gallery/Gallery';
 
 import style from "./scss/index.module.scss";
-import Popular from '../../components/Popular/Popular';
+import Popular from 'components/Popular/Popular';
 
 function Index() {
     return (

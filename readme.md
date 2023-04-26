@@ -51,3 +51,11 @@ URL do curso -> [React com JavaScript: Lidando com Arquivos Estáticos](https://
 * Como criar o componente de Card.
 * As vantagens de componentizar a aplicação em diferentes níveis.
 * Como criar o componente para exibir imagens populares.
+
+## 05 - Finalizando o Projeto
+* Como criar filtros de ordenação de imagens por Tag.
+* Boas práticas de código.
+* Como controlar estados e utilizar props em componentes.
+* Como usar mixins para reaproveitamento de código e responsividade da página.
+* As vantagens de utilizar absolute imports e como configurar caminhos absolutos.
+* Como fazer o deploy da aplicação na vercel.
