@@ -2,8 +2,10 @@ import React from 'react';
 
 import Header from "../../components/Header/header";
 import Banner from '../../components/Banner/banner';
+import Gallery from '../../components/Gallery/Gallery';
 
-import "./scss/index.module.scss";
+import style from "./scss/index.module.scss";
+import Popular from '../../components/Popular/Popular';
 
 function Index() {
     return (
@@ -12,6 +14,11 @@ function Index() {
 
             <main>
                 <Banner />
+
+                <div className={style.gallery}>
+                    <Gallery />
+                    <Popular />
+                </div>
             </main>
         </React.Fragment>
     )

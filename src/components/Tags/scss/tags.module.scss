@@ -1,0 +1,37 @@
+@import "../../../assets/scss/variables";
+
+.tags {
+    width: 65vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    color: #d9d9d9;
+    font-family: "GandhiSansRegular";
+    font-size: 16px;
+
+    p {
+        font-size: 1.25rem;
+    }
+
+    &__list {
+        width: 380px;
+        
+        display: flex;
+        justify-content: space-between;
+        
+        padding: 0;
+        
+        list-style: none;
+
+        li {
+            background-color: rgba(148, 163, 184,0.3);
+            
+            border-radius: 8px;
+            padding: 6px 10px;
+            
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "linkText": "Home",
+        "url": "/assets/images/icons/home-ativo.png",
+        "description": "A house icon"
+    },
+    {
+        "id": 2,
+        "linkText": "Most Views",
+        "url": "/assets/images/icons/mais-curtidas-inativo.png",
+        "description": "A like icon"
+    },
+    {
+        "id": 3,
+        "linkText": "More Likes",
+        "url": "/assets/images/icons/mais-vistas-inativo.png",
+        "description": "A eye icon"
+    },
+    {
+        "id": 4,
+        "linkText": "News",
+        "url": "/assets/images/icons/novas-inativo.png",
+        "description": "A star icon"
+    },
+    {
+        "id": 5,
+        "linkText": "Surprise me",
+        "url": "/assets/images/icons/surpreenda-me-inativo.png",
+        "description": "A light bulb icon"
+    }
+]

@@ -35,6 +35,7 @@ URL do curso -> [React com JavaScript: Lidando com Arquivos Estáticos](https://
 * Inserir o banner da página.
 * Utilizar o import da forma correta como sugere a documentação.
 * O que é e como usar a extensão React Snippets.
+* Usar o comando `rfc` para auto gerar um código simples React.
 
 ## 03 - Fontes e Estilos
 * Adicionar os arquivos GlobalStyle.scss e _variaveis.scss.
@@ -42,3 +43,11 @@ URL do curso -> [React com JavaScript: Lidando com Arquivos Estáticos](https://
 * Como organizar e usar variáveis css.
 * Como configurar os arquivos de fontes no projeto.
 * Como importar essas fontes usando o @fontface.
+
+## 04 - Lidando com Imagens
+* Como criar o componente de Tags e o de Galeria.
+* Utilizar o map para percorrer o arquivo de dados e renderizar as imagens.
+* Quando utilizar a pasta public.
+* Como criar o componente de Card.
+* As vantagens de componentizar a aplicação em diferentes níveis.
+* Como criar o componente para exibir imagens populares.

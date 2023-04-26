@@ -1,0 +1,98 @@
+@import "../../../assets/scss/variables";
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 17%;
+
+    font-family: "GandhiSansRegular";
+
+    h2 {
+        color: #7b78e5;
+        font-size: 24px;
+    }
+
+    &__cards {
+        width: 100%;
+        
+        display: flex;
+        flex-wrap: wrap;
+        
+        padding: 0;
+        
+        list-style: none;
+    }
+
+    &__card {
+        background-color: #041833;
+        
+        width: 30%;
+        min-width: 285px;
+        height: 280px;
+        
+        border-radius: 20px;
+        margin-right: 1rem;
+        margin-bottom: 1.35rem;
+        
+        cursor: pointer;
+
+        &:hover {
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+            
+            transform: scale(1.025);
+            transition: 0.18s;
+            
+            -moz-transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+        }
+
+        div {
+            width: 100%;
+            
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            padding: 0 1rem;
+            box-sizing: border-box;
+
+            p {
+                margin: 0;
+                margin-top: 0.5rem;
+
+                color: #9d9d9d;
+            }
+
+            span {
+                width: 20%;
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                img {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    &__image {
+        height: 75%;
+        width: 100%;
+    }
+
+    &__description {
+        margin: 0;
+        padding: 0 16px;
+        
+        color: #d9d9d9;
+        font-family: "GandhiSansBold";
+        font-size: 1.25rem;
+    }
+}
